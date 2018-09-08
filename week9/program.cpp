@@ -1,21 +1,19 @@
 #include <vector>
 #include <iostream>
-
 using namespace std;
-
 const bool CLEAR_SCREEN = true;
 
-void clearScreen() {
+void clearScreen() 
+{
     cout << endl;
-
-    if (CLEAR_SCREEN) {
+    if (CLEAR_SCREEN) 
+    {
         cout << "\033c";
     }
-
     cout << endl;
-
     return;
 } 
+
 void drawBoard(const vector < char >&gameBoard) {
     clearScreen();
     for (int i = 0; i < 9; i += 3) {
