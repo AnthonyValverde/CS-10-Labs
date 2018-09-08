@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+bool isVowel(char c) 
+{
+   if( char c == 'a' || 'e' || 'i' ||
+   
+}
+int main() {
+  
+   if (isVowel(letter)) {
+   
+   cout << letter << " is a vowel!" << endl;
+   return 0;
+}
